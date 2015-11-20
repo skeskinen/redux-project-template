@@ -1,0 +1,10 @@
+[ignore]
+.*/react/node_modules/.*
+.*/node_modules/babel*
+
+[include]
+
+[libs]
+
+[options]
+module.name_mapper='.*\(.styl\)' -> 'empty/object'
